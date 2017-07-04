@@ -1,0 +1,59 @@
+# Site wide configuration
+
+title: Michał Konarski
+locale: en_US
+description: My own space on the Internet
+logo: site-logo.png
+search: true
+url: https://mjkonarski.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Michał Konarski
+  avatar: bio-photo.png
+  email: mjkonarski@gmail.com
+  disqus-shortname:
+  twitter: mjkonarski
+  facebook: #username
+  github: mjkonarski
+  stackexchange: http://stackoverflow.com/users/4220482/mjkpl
+  linkedin: michalkonarski
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
