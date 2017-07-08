@@ -238,7 +238,7 @@ And after all keep in mind that:
 
 It comes with experience.
 
-#### References
+#### Resources
 
 * [RailsConf 2015 - Nothing is Something](https://www.youtube.com/watch?v=OMPfEXIlTVE)
 * [https://learnrubythehardway.org/book/ex44.html](https://learnrubythehardway.org/book/ex44.html)
