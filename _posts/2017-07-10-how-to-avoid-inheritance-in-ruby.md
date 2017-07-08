@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to avoid inheritance in Ruby?
-date: 2017-07-08 10:00:00 +0000
+date: 2017-07-10 10:00:00 +0000
 ---
 
 What’s wrong with the inheritance? Let me illustrate it with an example.
