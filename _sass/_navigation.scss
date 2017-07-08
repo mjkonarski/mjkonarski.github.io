@@ -30,6 +30,8 @@
     @include media($medium) {
       @include font-size(13,no);
     }
+  }
+  li.selectable {
     a:hover {
       @include box-shadow($shadow: inset 0 0 1px $white);
     }
@@ -44,6 +46,8 @@
     }
     color: $white;
     @include rounded(4px);
+  }
+  a.selectable {
     &:hover {
       background-color: lighten($black, 10);
     }
