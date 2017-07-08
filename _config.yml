@@ -38,12 +38,12 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Michał Konarski
   avatar: bio-photo.png
-  email: mjkonarski@gmail.com
+  email: 
   disqus-shortname:
   twitter: mjkonarski
   facebook: #username
   github: mjkonarski
-  stackexchange: http://stackoverflow.com/users/4220482/mjkpl
+  # stackexchange: http://stackoverflow.com/users/4220482/mjkpl
   linkedin: michalkonarski
   instagram: #username
   flickr: #username

@@ -86,7 +86,7 @@ span + .entry-title {
 		@include font-size(52,yes,54);
 	}
 	@include media($large) {
-		@include font-size(68,yes,72);
+		@include font-size(50,yes,56);
 	}
 }
 
@@ -308,4 +308,17 @@ span + .entry-title {
 	tr, td, th {
 		vertical-align: middle;
 	}
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.center-image + em {
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
