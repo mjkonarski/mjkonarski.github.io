@@ -9,6 +9,9 @@ Home posts:
 <ul>
   {% assign home_posts = site.posts | sort: 'date' | reverse %}
   {% for post in home_posts %}
+    {% if post.published == false %}
+      {% continue %}
+    {% endif %}
     <li>
       <a href="{{ post.url }}" {% if post.url contains 'http' %}target="_blank"{% endif %}>{{ post.title }} ({{ post.date | date: "%Y-%m-%d" }})</a>
     </li>
