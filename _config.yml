@@ -8,6 +8,7 @@ search: true
 url: http://mjk.space
 comments: true
 future: true
+unpublished: true
 
 # Jekyll configuration
 
