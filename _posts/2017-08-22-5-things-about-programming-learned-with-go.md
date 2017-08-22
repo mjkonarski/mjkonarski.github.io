@@ -9,6 +9,9 @@ Go has been gaining a significant popularity over last few months. Language-rela
 
 I came across Go a year ago and decided to give it a try. After spending some time with it I can say that it’s definitely a language worth learning. Even if you’re not planning to use it in the long run, playing with it for a while may help you to improve your programming skills in general. In this post I’d like to tell you about five things that I’ve learned with Go and found useful in other languages.
 
+![Gopher - Go's mascot](/images/blog/5-things/go-mascot.svg){: .center-image }{:width='150px'}
+*Gopher - Go's mascot*
+
 ### 1. It is possible to have both dynamic-like syntax and static safety
 
 On a daily basis I work in Ruby and I really like its dynamic typing system. It makes the language easy to learn, easy to use and allows programmers to write code very quickly. In my opinion however it works very well mostly in a smaller codebase. When my project starts to grow and becomes more and more complicated I tend to miss the safety and reliability that statically typed languages provide. Even if I test my code carefully, it can always happen that I forget to cover some edge case and suddenly my object will appear in the context that I didn’t expect. Is it possible then to have a dynamic-like programming language and don’t give up the static safety at the same time? I think so. Let me speak in Go code!
