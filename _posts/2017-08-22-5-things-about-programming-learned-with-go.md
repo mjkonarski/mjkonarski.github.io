@@ -16,7 +16,7 @@ I came across Go a year ago and decided to give it a try. After spending some ti
 
 On a daily basis I work in Ruby and I really like its dynamic typing system. It makes the language easy to learn, easy to use and allows programmers to write code very quickly. In my opinion however it works very well mostly in a smaller codebase. When my project starts to grow and becomes more and more complicated I tend to miss the safety and reliability that statically typed languages provide. Even if I test my code carefully, it can always happen that I forget to cover some edge case and suddenly my object will appear in the context that I didn’t expect. Is it possible then to have a dynamic-like programming language and don’t give up the static safety at the same time? I think so. Let me speak in Go code!
 
-Go is not an object-oriented language. But it does have interfaces. And they are pretty much the same as these you can find in Java or C++. They have names and define a set of function signatures:
+~~Go is not an object-oriented language.~~ There is an ongoing discussion whether Go is or is not an object-oriented language [[1]](https://www.quora.com/Is-the-programming-language-Go-a-functional-or-object-oriented-programming-language)[[2]](https://nathany.com/good/). Even the authors don't have a strong opinion [[3]](https://golang.org/doc/faq#Is_Go_an_object-oriented_language). But one of the OO features that Go definitely has is the interfaces. And they are pretty much the same as these you can find in Java or C++. They have names and define a set of function signatures:
 
 ```go
 type Animal interface {
