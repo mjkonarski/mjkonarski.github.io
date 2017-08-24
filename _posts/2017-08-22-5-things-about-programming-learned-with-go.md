@@ -42,7 +42,7 @@ func (d Dog) Speak() string {
 
 It means that, from now, you can invoke that function on any instance of `Dog` struct.
 
-This piece of code may seem strange at the first time. Why did we write it outside the struct? And what is this weird `(d Dog)` part before the function name? Let me explain. Authors of Go wanted to give users more flexibility by allowing them to add their logic to any structs they like. Even to the ones they're not authors of (like some external libraries). Therefore they decided to keep functions outside the structs. And because the compiler needs to know which struct you’re extending, you have to specify its name explicitly and put it into this strange part called *receiver*.
+This piece of code may seem strange at the first time. Why did we write it outside the struct? And what is this weird `(d Dog)` part before the function name? Let me explain. Authors of Go wanted to give users more flexibility by allowing them to add their logic to any type they like (as long as it is a part of the same package). ~~Even to the ones they're not authors of (like some external libraries). Therefore they decided to keep functions outside the structs.~~ And because the compiler needs to know which type you’re extending, you have to specify its name explicitly and put it into this strange part called *receiver*.
 
 To use the above code we can write a function that simply takes `Animal` as an argument and calls its method.
 
