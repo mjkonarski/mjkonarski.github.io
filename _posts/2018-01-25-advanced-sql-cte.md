@@ -345,3 +345,9 @@ SELECT b FROM fibo
 CTE are an interesting SQL feature. They help to organize and simplify complicated queries and also make them easier to maintain by allowing a user to get rid of duplicated parts. In their simplest form however they don’t offer anything more, especially nothing in terms of manipulating data.
 
 You may therefore think that they’re not very useful. But their true potential lies in the recursive mode. It enables you to do a thing otherwise impossible in pure SQL - write a query that invokes itself, which gives you a lot of new possibilities. For example, you can traverse your relational tables like they were graphs. Recursive CTE might seem hard at first glance, but once you get familiar with them, you will appreciate the power they give.
+
+### Resources
+
+* [Modern SQL](http://modern-sql.com/)
+* [PostgreSQL documentation](https://www.postgresql.org/docs/current/static/queries-with.html)
+* [Stack Overflow - When to use Common Table Expression (CTE)](https://stackoverflow.com/questions/4740748/when-to-use-common-table-expression-cte)
