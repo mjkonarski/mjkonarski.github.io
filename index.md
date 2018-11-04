@@ -7,9 +7,9 @@ search_omit: true
 
 I'm a **software developer** and **a tech enthusiast**.
 
-I live in **Kraków**, **Poland**. I like to know how stuff around me works and how to improve it. I love learning new things.
+I live in **Stockholm**, **Sweden**. I like to know how stuff around me works and how to improve it. I love learning new things.
 
-For a living I do TV related social media analytics software at [u2i.com](http://u2i.com/).
+For a living I do serious fintech stuff at [izettle.com](https://www.izettle.com/?stay).
 
 I learned serious programming with **Java**, which remains closest to my heart. I had a romance with **Erlang** which fascinated me with its functional nature and actor model. Some time ago I decided to check what life is like in dynamically typed languages, so I picked up **Ruby** with its shining framework **Rails**. Recently I've been playing with **Go** and its absolutely amazing built-in concurrency.
 
