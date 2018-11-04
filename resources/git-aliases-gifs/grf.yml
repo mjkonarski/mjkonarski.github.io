@@ -1,0 +1,161 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: /bin/zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/michal/dev/oh-my-git-aliases
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 87
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: auto
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: oh-my-git-aliases
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1007
+    content: "\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a\e]1337;ShellIntegrationVersion=6;shell=zsh\a"                                                                                                                                                                                                                                           \r \r\e]2;michal@askia: ~/dev/oh-my-git-aliases\a\e]1;..y-git-aliases\a\e]133;D;0\a\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a"
+  - delay: 63
+    content: "\e[0m\e[27m\e[24m\e[J\e]133;A\a\e[01;32mmichal@askia \e[01;34m~/dev/oh-my-git-aliases git:(\e[31mmaster\e[34m)\e[33m✗\e[00m \e[00m\r\n\e[01;34m$\e[00m \e]133;B\a\e[K\e[?1h\e=\e[?2004h"
+  - delay: 393
+    content: gst
+  - delay: 136
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;git status\a\e]1;gst\a\e]133;C;\a"
+  - delay: 10
+    content: "On branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git checkout -- <file>...\" to discard changes in working directory)\r\n\r\n\t\e[31mmodified:   LICENSE\e[m\r\n\t\e[31mmodified:   README.md\e[m\r\n\r\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m\r \r\e]2;michal@askia: ~/dev/oh-my-git-aliases\a\e]1;..y-git-aliases\a\e]133;D;0\a\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a"
+  - delay: 43
+    content: "\r\e[0m\e[27m\e[24m\e[J\e]133;A\a\e[01;32mmichal@askia \e[01;34m~/dev/oh-my-git-aliases git:(\e[31mmaster\e[34m)\e[33m✗\e[00m \e[00m\r\n\e[01;34m$\e[00m \e]133;B\a\e[K\e[?1h\e=\e[?2004h"
+  - delay: 3000
+    content: gca -m "Changes"
+  - delay: 288
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;git commit -a -m \"Changes\"\a\e]1;gca\a\e]133;C;\a"
+  - delay: 13
+    content: "[master 1713a2f] Changes\r\n 2 files changed, 2 insertions(+)\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m\r \r\e]2;michal@askia: ~/dev/oh-my-git-aliases\a\e]1;..y-git-aliases\a\e]133;D;0\a\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a"
+  - delay: 85
+    content: "\r\e[0m\e[27m\e[24m\e[J\e]133;A\a\e[01;32mmichal@askia \e[01;34m~/dev/oh-my-git-aliases git:(\e[31mmaster\e[34m) \e[00m\r\n\e[01;34m$\e[00m \e]133;B\a\e[K\e[?1h\e=\e[?2004h"
+  - delay: 3000
+    content: gst
+  - delay: 88
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;git status\a\e]1;gst\a\e]133;C;\a"
+  - delay: 8
+    content: "On branch master\r\nYour branch is ahead of 'origin/master' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nnothing to commit, working tree clean\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m\r \r\e]2;michal@askia: ~/dev/oh-my-git-aliases\a\e]1;..y-git-aliases\a\e]133;D;0\a\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a"
+  - delay: 68
+    content: "\r\e[0m\e[27m\e[24m\e[J\e]133;A\a\e[01;32mmichal@askia \e[01;34m~/dev/oh-my-git-aliases git:(\e[31mmaster\e[34m) \e[00m\r\n\e[01;34m$\e[00m \e]133;B\a\e[K\e[?1h\e=\e[?2004h"
+  - delay: 3000
+    content: "grf LICENSE "
+  - delay: 645
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e]2;grf LICENSE\a\e]1;grf\a\e]133;C;\a"
+  - delay: 8
+    content: "Unstaged changes after reset:\r\nM\tLICENSE\r\n"
+  - delay: 12
+    content: "[master fc67936] Changes\r\n Date: Sun Nov 4 18:31:47 2018 +0000\r\n 1 file changed, 1 insertion(+)\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m\r \r\e]2;michal@askia: ~/dev/oh-my-git-aliases\a\e]1;..y-git-aliases\a\e]133;D;0\a\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a"
+  - delay: 94
+    content: "\r\e[0m\e[27m\e[24m\e[J\e]133;A\a\e[01;32mmichal@askia \e[01;34m~/dev/oh-my-git-aliases git:(\e[31mmaster\e[34m)\e[33m✗\e[00m \e[00m\r\n\e[01;34m$\e[00m \e]133;B\a\e[K\e[?1h\e=\e[?2004h"
+  - delay: 3000
+    content: gst
+  - delay: 200
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;git status\a\e]1;gst\a\e]133;C;\a"
+  - delay: 9
+    content: "On branch master\r\nYour branch is ahead of 'origin/master' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git checkout -- <file>...\" to discard changes in working directory)\r\n\r\n\t\e[31mmodified:   LICENSE\e[m\r\n\r\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m\r \r\e]2;michal@askia: ~/dev/oh-my-git-aliases\a\e]1;..y-git-aliases\a\e]133;D;0\a\e]1337;RemoteHost=michal@askia.niceland\a\e]1337;CurrentDir=/Users/michal/dev/oh-my-git-aliases\a"
+  - delay: 56
+    content: "\r\e[0m\e[27m\e[24m\e[J\e]133;A\a\e[01;32mmichal@askia \e[01;34m~/dev/oh-my-git-aliases git:(\e[31mmaster\e[34m)\e[33m✗\e[00m \e[00m\r\n\e[01;34m$\e[00m \e]133;B\a\e[K\e[?1h\e=\e[?2004h"
+  - delay: 3000
+    content: ""
