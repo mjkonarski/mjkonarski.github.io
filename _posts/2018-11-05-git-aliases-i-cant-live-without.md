@@ -196,4 +196,5 @@ This can of course lead to a conflict, depending on a content of this commit. Re
 
 The above list for sure doesn’t cover all possible git use cases. I’d like to encourage you to take it as a good start for building your own suite of aliases. It’s always a good idea to seek for possible improvements in your daily workflow. 
 
+You can find all these aliases (and more!) in [my Github repository](https://github.com/mjkonarski/oh-my-git-aliases).
 
