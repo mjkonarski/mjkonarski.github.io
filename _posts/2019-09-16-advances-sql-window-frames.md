@@ -284,7 +284,7 @@ Now, it’s finally time to do some realistic examples (or at least as close to 
 ![Result rows with average ratings of better films](/images/blog/advanced-sql-window-frames/result-rows-1.svg){: .center-image }
 *Result rows with average ratings of better films*
 
-Because it’s a real-world example we can’t just assume that the input set will not contain duplicates in the `rating` column. Therefore using `ROWS` mode would give us a correct result. We have to choose `GROUPS` mode instead.
+Because it’s a real-world example we can’t just assume that the input set will not contain duplicates in the `rating` column. Therefore using `ROWS` mode would give us a incorrect result. We have to choose `GROUPS` mode instead.
 
 What we need here is all the films that are *strictly better* than the current one. We need to exclude the current row and all others that are rated the same as the current row, regardless of the order they come in. 
 
