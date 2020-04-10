@@ -176,6 +176,11 @@ The `ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING` part instructs database t
 
 Things get more complicated when the `rating` column contains duplicates. To achieve the same result we would need to use `RANGE` modifier instead of `ROWS`, but unfortunately Postgres [doesn't currently support](https://sonra.io/2017/09/15/window-functions-vendor-functionality-comparison/) the `1 PRECEDING` part in that case.
 
+<div class="infobox" markdown="block">
+This post was written in 2017. A lot of new features have been added to Postgres since version 10. See [my article about window frames](/advances-sql-window-frames/), which covers the latest developments in window functions. 
+<!-- You can also check out my [post about Common Table Expressions](http://localhost:4000/advanced-sql-cte/). -->
+</div>
+
 ### Conclusion
 
 Window functions are my favorite advanced SQL feature. They simply allow to do aggregations without actually aggregating the result set. They are a flexible way to create sophisticated SQL queries, that otherwise would need to be long, complicated and hard to read and maintain. PostgreSQL and other databases offer a wide variety of different functions and options to specify the exact subset of rows we’d like to operate on.
