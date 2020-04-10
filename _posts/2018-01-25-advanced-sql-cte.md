@@ -346,6 +346,10 @@ CTE are an interesting SQL feature. They help to organize and simplify complicat
 
 You may therefore think that they’re not very useful. But their true potential lies in the recursive mode. It enables you to do a thing otherwise impossible in pure SQL - write a query that invokes itself, which gives you a lot of new possibilities. For example, you can traverse your relational tables like they were graphs. Recursive CTE might seem hard at first glance, but once you get familiar with them, you will appreciate the power they give.
 
+<div class="infobox" markdown="block">
+If you like my style of explaining things, you can check my article about other advanced SQL feature - [window functions](/advanced-sql-window-functions/). 
+</div>
+
 ### Resources
 
 * [Modern SQL](http://modern-sql.com/)

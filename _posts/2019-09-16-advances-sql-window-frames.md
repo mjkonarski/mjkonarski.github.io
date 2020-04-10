@@ -377,6 +377,10 @@ Window functions are a very powerful SQL feature that can be extremely useful wh
 
 It’s worth to keep track of the latest SQL features being introduced to the popular relational database systems. It might take some time to learn and fully understand them, but if you want your database engine to do the heavy lifting, then they will prove useful for you.
 
+<div class="infobox" markdown="block">
+If you like my style of explaining things, you can check my article about other advanced SQL feature - [Common Table Expressions](/advanced-sql-cte/). 
+</div>
+
 ### Resources
 
 * [PostgreSQL documentation](https://www.postgresql.org/docs/11/sql-expressions.html#SYNTAX-WINDOW-FUNCTIONS)

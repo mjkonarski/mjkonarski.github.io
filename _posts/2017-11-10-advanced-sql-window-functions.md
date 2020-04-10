@@ -11,6 +11,10 @@ The first feature that I’d like to present is **window functions**.
 
 In this article I'll be using PostgreSQL 10, because it's the most feature-rich open source database available. Version 10 [has been just released](https://www.postgresql.org/about/news/1786/), but window functions have been available since 8.4, so any modern version will be fine.
 
+<div class="infobox" markdown="block">
+This post was written in 2017, but everything it describes works in later versions of Postgres.
+</div>
+
 ### Problem
 
  As I promised, let’s start with a problem. We'll be working with a very simple one-table database. The table contains information about films: years they were released in, ID of a category and their ratings according to some imaginary movie database:
@@ -177,7 +181,7 @@ The `ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING` part instructs database t
 Things get more complicated when the `rating` column contains duplicates. To achieve the same result we would need to use `RANGE` modifier instead of `ROWS`, but unfortunately Postgres [doesn't currently support](https://sonra.io/2017/09/15/window-functions-vendor-functionality-comparison/) the `1 PRECEDING` part in that case.
 
 <div class="infobox" markdown="block">
-This post was written in 2017. A lot of new features have been added to Postgres since version 10. See [my article about window frames](/advances-sql-window-frames/), which covers the latest developments in window functions. 
+A lot of new features have been added to Postgres since version 10. See [my article about window frames](/advances-sql-window-frames/), which covers the latest developments in window functions. 
 <!-- You can also check out my [post about Common Table Expressions](http://localhost:4000/advanced-sql-cte/). -->
 </div>
 
