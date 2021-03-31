@@ -26,7 +26,7 @@ This is maybe not the most frequent Git command programmers use, but I personall
 
 ##### 2. Download the latest state from the remote
 
-`alias gf = git fetch`
+`alias gfe = git fetch`
 
 I usually use fetch to get the newest changes from the remote repository because it doesn’t affect working directory and *HEAD* in any way. Later I can use other commands to modify local files explicitly.
 
