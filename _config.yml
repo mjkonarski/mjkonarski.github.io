@@ -3,7 +3,7 @@
 title: Michał Konarski
 locale: en_US
 description: My own space on the Internet
-logo: site-logo.png
+logo: bio-photo.jpg
 search: true
 url: https://mjk.space
 comments: true
@@ -40,7 +40,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Michał Konarski
-  avatar: bio-photo.png
+  avatar: bio-photo.jpg
   email:
   disqus-shortname: mjk-space
   twitter: mjkonarski
