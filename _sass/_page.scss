@@ -178,7 +178,7 @@ span + .entry-title {
 	}
 	/* nice link underlines */
   p > a,
-	li > a {
+	li a {
 		border-bottom: 1px dotted lighten($link-color, 50);
 		&:hover {
 			border-bottom-style: solid;
@@ -302,10 +302,33 @@ span + .entry-title {
 	}
 }
 
-.center-image
-{
+.center-image {
     margin: 0 auto;
     display: block;
+}
+
+.pres-slide {
+	background-color: rgb(236, 236, 236);
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding: 15px;
+	border-radius: 10px;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.pres-slide img {
+	margin: 0 auto;
+    display: block;
+}
+
+.pres-slide ul {
+	margin: 0 auto;
+    display: block;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .center-image + em {
